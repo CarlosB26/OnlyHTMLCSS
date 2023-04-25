@@ -1,0 +1,272 @@
+*{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   
+}
+
+body{
+    font-family: 'Kanit', sans-serif;
+    background-color: black;
+    color: #546c84;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+
+.nav-links ul {
+    text-align: center;
+}
+
+header{
+    background: rgb(0, 0, 0); 
+    width: 100%;
+    height: 125px;   
+}
+
+.nav-list{
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    border-right: 1px #546c84 solid ;
+    
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: #546c84;
+    position: relative;
+
+}
+
+.logo{
+    position: relative;
+    top: 5px;
+    left: 45%;
+}
+
+
+#ultimo{
+    border-right: none;
+}
+
+footer{
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 280px;
+}
+
+footer div{
+    text-align: center;
+    padding:30px 100px 30px 100px; 
+    position: relative;
+    left: 18%;  
+}
+
+.col-1 a{
+    color: #546c84;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.col-1{
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+
+.col-2 {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+
+}
+
+.col-3{
+    display: inline-block;
+    position: relative;
+    bottom: 90px;
+
+}
+
+.derechos p{
+    display: block;
+    position: relative;
+    right: 333px;
+    bottom:42px;
+
+}
+
+footer div h4{
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+
+
+.newsletter input{
+    color: #546c84;
+    background: transparent;
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    border-color: #546c84;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.newsletter button{
+    background: transparent;
+    border: 2px solid #546c84;
+    color: #546c84;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;    
+
+}
+
+.newsletter input::placeholder{
+    color: #546c84;
+    position: relative;
+    background: transparent;
+    padding: 10px 30px;
+}
+/*MAIN INICIO Y PROYECTOS*/
+
+main{
+    text-align: center;
+}
+main hr{
+    margin: 20px 0 20px 0;
+
+}
+
+.first{
+
+    height: 500px;
+    width: 1200px;
+}
+
+.image{
+    display: inline-block;
+
+}
+.image img{
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    padding: 10px 10px 10px 10px; 
+}
+
+.caption{
+    margin: 0px 0px 10px 0px; 
+}
+
+/*MAIN SOBRE NOSOTROS*/
+
+
+  
+.imagende {
+    display: inline-block;
+    vertical-align: middle;
+    height: 200px;
+    width: 400px;
+  }
+  
+.parrafode {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    font-size: 16px; 
+    text-align: justify;
+  }
+
+  .imageniz {
+    display: inline-block;
+    vertical-align: middle;
+    height: 200px;
+    width: 400px;
+  }
+  
+  .parrafoiz {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    font-size: 16px;
+    text-align: justify;
+  }
+
+.historia h1{
+    text-align: right;
+    position: relative;
+    right: 40%;
+}
+
+.trayectoria h1{
+    text-align: right;
+    position: relative;
+    right: 60%;
+}
+
+.mision h1{
+    text-align: right;
+    position: relative;
+    right: 38%;
+}
+ 
+/*MAIN CONTACTO*/
+  
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+
+.formcontacto {
+    display: inline-block;
+    text-align: left;
+  }
+  
+label, .inputcontacto, textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+.inputcontacto, textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+.boton {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: #008CBA;
+    color: #FFF;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+.boton:hover {
+    background-color: #005580;
+  }
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
